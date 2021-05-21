@@ -4,6 +4,6 @@ services:
     grafana:
         image: grafana/grafana:7.0.0
         volumes:
-            - /src:/var/lib/grafana/plugins/grafana-placeholder
+            - ./:/var/lib/grafana/plugins/grafana-placeholder
         ports: 
             - 3000:3000
