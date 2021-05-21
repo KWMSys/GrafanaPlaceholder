@@ -1,6 +1,6 @@
 {
   "name": "kwm-sys-grafana-placeholder",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "A placeholder plugin which uses space and nothing else",
   "scripts": {
     "build": "grafana-toolkit plugin:build",
