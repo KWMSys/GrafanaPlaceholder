@@ -6,7 +6,7 @@ import { stylesFactory } from '@grafana/ui';
 
 interface Props extends PanelProps<SimpleOptions> {}
 
-export const SimplePanel: React.FC<Props> = (props) => {
+export const SimplePanel: React.FC<Props> = props => {
   let { options, width, height } = props;
   const styles = getStyles();
 
